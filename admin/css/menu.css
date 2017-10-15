@@ -1,0 +1,32 @@
+	@charset "utf-8";
+	/* CSS Document */
+	
+ul.menu li
+	{
+		display:inline-block;
+		background-color:#CFC;
+		height:25px;
+		padding:0px 65px;
+		vertical-align:middle;
+	}
+ul.menu li li
+	{
+			display:block;
+			background-color:#aaa;}
+ul.menu li ul
+	{
+				display:none;
+				padding:0;}
+ul.menu li:hover ul
+	{
+					display:block;
+					position:absolute;
+					z-index:99}
+a{
+					text-decoration:none;
+					color:black;
+					font-size:16px;}
+ul.menu li:hover
+{
+	background-color:red;
+}
